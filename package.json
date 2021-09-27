@@ -1,6 +1,6 @@
 {
   "name": "@pnap/react-native-search-bar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple and elegant react-native animated search bar.",
   "main": "./dist/index.js",
   "author": "Piotr Napierala (p.napierala@mailfence.com)",
