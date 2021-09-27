@@ -4,10 +4,10 @@ export interface Props {
     onActiveSearch: (val: boolean) => void;
     onSubmitSearch: (val: string) => void;
     onToggleSearchBar: (val: boolean) => void;
-    underlineActiveColor: ColorValue;
-    underlineInactiveColor: ColorValue;
-    inputTextStyle: StyleProp<TextStyle>;
-    customIcon: React.ReactNode;
+    underlineActiveColor?: ColorValue;
+    underlineInactiveColor?: ColorValue;
+    inputTextStyle?: StyleProp<TextStyle>;
+    customIcon?: React.ReactNode;
     iconStyle?: StyleProp<ViewStyle>;
     buttonStyle?: StyleProp<ViewStyle>;
     buttonTextStyle?: StyleProp<TextStyle>;
