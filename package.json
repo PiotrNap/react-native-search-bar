@@ -1,6 +1,6 @@
 {
   "name": "@pnap/react-native-search-bar",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple and elegant react-native animated search bar.",
   "main": "./dist/index.js",
   "author": "Piotr Napierala (p.napierala@mailfence.com)",
@@ -23,9 +23,9 @@
     "react-native-svg": "^12.1.1",
     "typescript": "^4.4.3"
   },
+  "dependencies": {},
   "bugs": {
     "url": "https://github.com/piotrnap/react-native-search-bar/issues"
   },
-  "homepage": "https://github.com/piotrnap/react-native-search-bar#readme",
-  "dependencies": {}
+  "homepage": "https://github.com/piotrnap/react-native-search-bar#readme"
 }

@@ -20,13 +20,14 @@ yarn add @pnap/react-native-search-bar
 ## Usage
 
 ```javascript
-import {View} from 'react-native'
+import {View, StyleSheet} from 'react-native'
+import {CustomSearchIcon} from 'components/icons'
 import SearchBar from '@pnap/react-native-search-bar'
 
-
-# implement in your component
+// Create your component
 const MyScreenComponent = () => {
-     // Your components business logic (functions, variables, etc)
+
+  // Some business logic (functions, variables, etc)
 
   return (
      <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
@@ -43,6 +44,10 @@ const MyScreenComponent = () => {
         />
      </View>
 }
+
+const styles = StyleSheet.create({
+    ...
+})
 ```
 ## Availalable Props
 
