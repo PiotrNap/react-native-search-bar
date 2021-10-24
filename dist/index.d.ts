@@ -11,6 +11,7 @@ export interface Props {
     iconStyle?: StyleProp<ViewStyle>;
     buttonStyle?: StyleProp<ViewStyle>;
     buttonTextStyle?: StyleProp<TextStyle>;
+    animationDuration?: number;
 }
-declare const SearchBar: ({ onActiveSearch, onSubmitSearch, onToggleSearchBar, customIcon, iconStyle, inputTextStyle, buttonStyle, buttonTextStyle, underlineActiveColor, underlineInactiveColor, }: Props) => JSX.Element;
+declare const SearchBar: ({ onActiveSearch, onSubmitSearch, onToggleSearchBar, customIcon, iconStyle, inputTextStyle, buttonStyle, buttonTextStyle, underlineActiveColor, underlineInactiveColor, animationDuration, }: Props) => any;
 export default SearchBar;

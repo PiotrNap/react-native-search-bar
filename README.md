@@ -62,6 +62,7 @@ const styles = StyleSheet.create({
 | buttonTextStyle      | TextStyle | simple style | Style value for search Pressable text.| No |
 | underlineActiveColor      | ColorValue | #6d28d9 | Color for bottom border of active TextInput.| No |
 | underlineInactiveColor      | ColorValue | #9f9ea4 | Color for bottom border of inactive TextInput.| No |
+| animationDuration      | Number | 360 | Time in milliseconds for animations.| No |
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

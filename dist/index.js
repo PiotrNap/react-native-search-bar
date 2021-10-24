@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const React = require("react");
 const react_native_1 = require("react-native");
 const searchIcon_1 = require("./searchIcon");
-const SearchBar = ({ onActiveSearch, onSubmitSearch, onToggleSearchBar, customIcon, iconStyle, inputTextStyle, buttonStyle, buttonTextStyle, underlineActiveColor, underlineInactiveColor, }) => {
+const SearchBar = ({ onActiveSearch, onSubmitSearch, onToggleSearchBar, customIcon, iconStyle, inputTextStyle, buttonStyle, buttonTextStyle, underlineActiveColor, underlineInactiveColor, animationDuration, }) => {
     const [activeSearchBar, setActiveSearchBar] = React.useState(false);
     const [inputTextActive, setInputTextActive] = React.useState(false);
     const [layout, setLayout] = React.useState(null);
@@ -40,7 +40,7 @@ const SearchBar = ({ onActiveSearch, onSubmitSearch, onToggleSearchBar, customIc
     }, []);
     const animateWithValue = (val) => react_native_1.Animated.timing(val, {
         useNativeDriver: false,
-        duration: 360,
+        duration: animationDuration ?? 360,
         toValue: activeSearchBar ? 0 : 1,
     });
     const startSearchBarAnimation = () => {
