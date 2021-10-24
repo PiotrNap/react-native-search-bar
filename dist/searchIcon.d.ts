@@ -1,1 +1,2 @@
-export declare const SearchIcon: (props: any) => any;
+import { SvgProps } from "react-native-svg";
+export declare const SearchIcon: (props: SvgProps) => any;
